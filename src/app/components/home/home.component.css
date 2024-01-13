@@ -1,0 +1,32 @@
+.home-container{
+    margin-top: 100px;
+    width: 100%;
+    
+}
+
+.home-header{
+    margin: 0 auto;
+    max-width: 700px;
+    font-size: 60px;
+    text-align: center;
+}
+
+.skills-bar{
+    display: flex;
+    margin: 75px auto 0 auto;
+    width: 500px;
+}
+.skill-tag{
+    flex: 1;
+    text-align: center;
+    margin: 5px;
+    padding: 5px 0;
+}
+.skill{
+    margin: 5px;
+    border-radius: 10px;
+    padding: 5px 0;
+    text-align: center;
+    background-color: #e8e5e480;
+    flex: 1;
+}
