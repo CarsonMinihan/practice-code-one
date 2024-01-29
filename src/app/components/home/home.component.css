@@ -29,7 +29,17 @@
     text-align: center;
     background-color: #e8e5e480;
 }
+.images-container{
+    padding: 0 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .image{
-    height: 200px;
-    width: 200px;
+    margin: 20px;
+    flex: 1 0 40%;
+    height: 500px;
+    width: 650px;
+    object-fit: cover;
+    border-radius: 15px;
 }

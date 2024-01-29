@@ -5,13 +5,16 @@
 }
 
 .nav{
-    margin: auto;
     display: flex;
     width: 300px;
     height: 40px;
-    background-color: #e8e5e480;
+    background-color: rgba(232, 229, 228, 0.7);
     border-radius: 25px;
     padding: 4px;
+    z-index: 99;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 .nav-btn{
     border-radius: 20px;
@@ -27,3 +30,5 @@
 .active-link {
     background-color: #ffffff;
 }
+
+
