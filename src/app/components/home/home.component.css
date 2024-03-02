@@ -7,8 +7,9 @@
 .home-header{
     margin: 0 auto;
     max-width: 700px;
-    font-size: 60px;
+    font-size: 72px;
     text-align: center;
+    font-family: "Neue Montreal Medium", serif;
 }
 
 .skills-bar{
@@ -24,8 +25,8 @@
 }
 .skill{
     margin: 5px;
-    border-radius: 10px;
-    padding: 5px;
+    border-radius: 15px;
+    padding: 8px 12px;
     text-align: center;
     background-color: #e8e5e480;
 }
